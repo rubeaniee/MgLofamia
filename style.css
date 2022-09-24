@@ -1,0 +1,22 @@
+/* ----------- INITIALIZE ---------- */
+body, html, div, h1, h2, h3, h4, ul, li, p, link, script, form { margin: 0; padding: 0; }
+
+/* ----------- GENERAL ----------- */
+
+body { background-color: #fff; }
+
+#wrapper { position: relative; top: 10px; width: 960px; height: 100%; margin: 0 auto; padding: 0 12px; }
+.email { margin-left: 50px; text-align: right; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #fff; }
+.links { font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; color: #ffc600; }
+
+#logo {float: right; }
+.King1 { margin-left: 84px; text-align: center; color: cadetblue; }
+
+#nav { position: relative; top: 15px; float: left; z-index: 2; }
+#nav li { display: inline-block; }
+#nav li a { color: grey; text-decoration: none; padding: 5px 20px; }
+#nav li a:hover,#menu a.current { color: #ffc600; }
+#nav a.current { color: grey; }
+
+.thumb { float: left; padding-right: 26px; }
+.thumbborder { border: 5px solid #ebe9e5; }
