@@ -60,3 +60,66 @@
 	display: inline-block;
 	font-size: 16px;
 }
+
+.section-break {
+	border: none;
+	background-color: #e4ebf3;
+	color: #ccc;
+	height: 1px;
+	margin: 0;
+}
+
+.section-2 {
+	background-color: #f5f7fa;
+}
+
+.career-container {
+	text-align: center;
+}
+
+.career-title {
+	padding: 60px 0px 30px;
+	font-size: 35px;
+	font-weight: 750;
+}
+
+.career-subtitle {
+	color: #333333;
+	font-size: 14px;
+}
+
+.cards-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 50px 75px;
+	justify-items: center;
+	padding-bottom: 100px;
+}
+
+.card-image {
+	width: calc(20vw + 40px);
+}
+
+.details-container {
+	background-color: #fff;
+	height: 50vh;
+	padding: 0px 20px;
+}
+
+.details-title {
+	padding-top: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.details-paragraph {
+	width: 20vw;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.link-container {
+	font-size: 14px;
+}
