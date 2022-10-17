@@ -1,5 +1,7 @@
 * {
 	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 .navbar {
@@ -71,6 +73,7 @@
 
 .section-2 {
 	background-color: #f5f7fa;
+	padding-bottom: 100px;
 }
 
 .career-container {
@@ -93,7 +96,6 @@
 	grid-template-columns: auto auto auto;
 	margin: 50px 75px;
 	justify-items: center;
-	padding-bottom: 100px;
 }
 
 .card-image {
@@ -121,5 +123,39 @@
 }
 
 .link-container {
+	font-size: 14px;
+}
+
+.footer-link-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 75px 0px;
+	justify-items: center;
+}
+
+.quick-link {
+	font-size: 18px;
+}
+
+.footer-link {
+	margin: 25px 0px 0px;
+}
+
+.footer-break {
+	width: 75%;
+	border: none;
+	background-color: #e4ebf3;
+	color: #ccc;
+	height: 1px;
+	margin: 0 auto;
+}
+
+.link-bottom-container {
+	margin: 40px 0px 50px;
+}
+
+.copyright {
+	margin-left: 15%;
+	color: #3a4554;
 	font-size: 14px;
 }
