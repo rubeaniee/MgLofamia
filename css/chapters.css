@@ -1,0 +1,331 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	display: flex;
+	margin: 10px 150px;
+}
+
+.left-nav {
+	margin-right: auto;
+	padding: 14px 16px;
+}
+
+.left-nav a {
+	padding: 0px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #000;
+}
+
+.right-nav {
+	margin-left: auto;
+	padding: 14px 16px;
+	font-weight: bold;
+}
+
+.section-1 {
+	display: flex;
+	background-color: #f5f7fa;
+}
+
+.column {
+	margin: 100px 50px;
+	flex: 50%;
+}
+
+.lebron-image {
+	width: 75%;
+	float: right;
+}
+
+.title-description {
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.paragraph-description {
+	line-height: 1.5;
+}
+
+.find-out-button {
+	display: block;
+	color: #fff;
+	background-color: #000;
+	padding: 15px 32px;
+	margin-top: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.section-break {
+	border: none;
+	background-color: #e4ebf3;
+	color: #ccc;
+	height: 1px;
+	margin: 0;
+}
+
+.section-2 {
+	background-color: #fff;
+	padding-bottom: 100px;
+}
+
+.career-container {
+	text-align: center;
+}
+
+.career-title {
+	padding: 60px 0px 30px;
+	font-size: 35px;
+	font-weight: 750;
+	font-family: "Arial";
+}
+
+.career-subtitle {
+	color: #333333;
+	font-size: 14px;
+}
+
+.cards-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 50px 75px;
+	justify-items: center;
+}
+
+.card-image {
+	width: calc(20vw + 40px);
+}
+
+.details-container {
+	background-color: #fff;
+	height: 50vh;
+	padding: 0px 20px;
+}
+
+.details-title {
+	padding-top: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.details-paragraph {
+	width: 20vw;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.link-container {
+	font-size: 14px;
+}
+
+.footer-link-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 75px 0px;
+	justify-items: center;
+}
+
+.quick-link {
+	font-size: 18px;
+}
+
+.footer-link {
+	margin: 25px 0px 0px;
+}
+
+.footer-break {
+	width: 75%;
+	border: none;
+	background-color: #e4ebf3;
+	color: #ccc;
+	height: 1px;
+	margin: 0 auto;
+}
+
+.link-bottom-container {
+	margin: 40px 0px 50px;
+}
+
+.copyright {
+	margin-left: 15%;
+	color: #3a4554;
+	font-size: 14px;
+}
+
+.card-video {
+	pointer-events: auto;
+	width: calc(100px);
+}
+
+.column-video {
+	margin-left: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 500px;
+	flex: 50%;
+}
+
+.title-description-video {
+	font-size: 40px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	font-family: "Trebuchet MS";
+}
+
+.paragraph-description-video {
+	line-height: 1.5;
+	font-family: "Palatino Linotype";
+}
+
+.peers-container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	margin: 50px 100px;
+}
+
+.ceo-container {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	background-color: #f5f7fa;
+	padding: 20px;
+	margin-right: 20px;
+}
+
+.reporter-container {
+	background-color: #f5f7fa;
+	padding: 20px;
+}
+
+.ceo-image {
+	width: 200px;
+	height: 280px;
+	object-fit: cover;
+	margin: 0px 20px 30px 20px;
+}
+
+.ceo-details {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.ceo-paragraph {
+	font: "Bitter";
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.ceo-name {
+	font: "Arial";
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.reporter-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.reporter-paragraph {
+	font: "Bitter";
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.reporter-details-container {
+	display: flex;
+}
+
+.reporter-image {
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.reporter-name {
+	font: "Bitter";
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.reporter-job-details {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.section-3 {
+	background-color: #f5f7fa;
+	padding: 100px 10%;
+}
+
+.story {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 50px;
+	margin: 50px 0px;
+}
+
+.story-img {
+	width: 535px;
+}
+
+.story-title {
+	font-size: 40px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	font-family: "Trebuchet MS";
+}
+
+.story-paragraph {
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: "Palatino Linotype";
+}
+
+.footer-link-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 75px 0px;
+	justify-items: center;
+}
+
+.quick-link {
+	font-size: 18px;
+}
+
+.footer-link {
+	margin: 25px 0px 0px;
+}
+
+.footer-break {
+	width: 75%;
+	border: none;
+	background-color: #e4ebf3;
+	color: #ccc;
+	height: 1px;
+	margin: 0 auto;
+}
+
+.link-bottom-container {
+	margin: 40px 0px 50px;
+}
+
+.copyright {
+	margin-left: 15%;
+	color: #3a4554;
+	font-size: 14px;
+}

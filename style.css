@@ -1,0 +1,171 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	display: flex;
+	margin: 10px 150px;
+}
+
+.left-nav {
+	margin-right: auto;
+	padding: 14px 16px;
+}
+
+.left-nav a {
+	padding: 0px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #000;
+}
+
+.right-nav {
+	margin-left: auto;
+	padding: 14px 16px;
+	font-weight: bold;
+}
+
+.section-1 {
+	display: flex;
+	background-color: #f5f7fa;
+}
+
+.column {
+	margin: 100px 50px;
+	flex: 50%;
+}
+
+.lebron-image {
+	width: 75%;
+	float: right;
+}
+
+.title-description {
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.paragraph-description {
+	line-height: 1.5;
+}
+
+.find-out-button {
+	display: block;
+	color: #fff;
+	background-color: #000;
+	padding: 15px 32px;
+	margin-top: 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.section-break {
+	border: none;
+	background-color: #e4ebf3;
+	color: #ccc;
+	height: 1px;
+	margin: 0;
+}
+
+.section-2 {
+	background-color: #f5f7fa;
+	padding-bottom: 100px;
+}
+
+.career-container {
+	text-align: center;
+}
+
+.career-title {
+	padding: 60px 0px 30px;
+	font-size: 35px;
+	font-weight: 750;
+}
+
+.career-subtitle {
+	color: #333333;
+	font-size: 14px;
+}
+
+.cards-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 50px 75px;
+	justify-items: center;
+}
+
+.card-image {
+	width: calc(20vw + 40px);
+}
+
+.details-container {
+	background-color: #fff;
+	height: 50vh;
+	padding: 0px 20px;
+}
+
+.details-title {
+	padding-top: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.details-paragraph {
+	width: 20vw;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.link-container {
+	font-size: 14px;
+}
+
+.footer-link-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 75px 0px;
+	justify-items: center;
+}
+
+.quick-link {
+	font-size: 18px;
+}
+
+.footer-link {
+	margin: 25px 0px 0px;
+}
+
+.footer-break {
+	width: 75%;
+	border: none;
+	background-color: #e4ebf3;
+	color: #ccc;
+	height: 1px;
+	margin: 0 auto;
+}
+
+.link-bottom-container {
+	margin: 40px 0px 50px;
+}
+
+.copyright {
+	margin-left: 15%;
+	color: #3a4554;
+	font-size: 14px;
+}
+
+.dot {
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	margin: 0 10px;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
